@@ -9,6 +9,9 @@ Are you exhausted from getting your google keep unorganized or even trying diffe
 - Fully customizable (it's open-source);
 - Vue powered;
 
+## Screenshots
+![Screenshot](images/sc1.png "Screenshot 1") ![Screenshot](images/sc2.png "Screenshot 2") ![Screenshot](images/sc3.png "Screenshot 3")
+
 ## Installation
 Download (or clone) the source code;
 Run the following script on the downloaded folder:

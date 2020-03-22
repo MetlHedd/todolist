@@ -11,7 +11,6 @@ import PouchLiveFind from 'pouchdb-live-find'
  * Local files import
  */
 import App from './App.vue'
-import Storage from './storage/index'
 import router from './router'
 import PouchStorage from './storage/pouchStorage'
 
