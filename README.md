@@ -10,7 +10,14 @@ Are you exhausted from getting your google keep unorganized or even trying diffe
 - Vue powered;
 
 ## Screenshots
-![Screenshot](images/sc1.png "Screenshot 1") ![Screenshot](images/sc2.png "Screenshot 2") ![Screenshot](images/sc3.png "Screenshot 3")
+- Main page:
+![Screenshot](images/sc1.png "Screenshot 1")
+
+- Creating a new task:
+![Screenshot](images/sc2.png "Screenshot 2")
+
+- Task view:
+![Screenshot](images/sc3.png "Screenshot 3")
 
 ## Installation
 Download (or clone) the source code;
