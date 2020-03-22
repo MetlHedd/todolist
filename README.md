@@ -27,9 +27,9 @@ npm run install
 ```
 
 ## Running the app
-For development run: `npm run serve`;
-For production mode or general cases uses run: `npm run build`;
-You can use the app on itself site: soon.
+- For development run: `npm run serve`;
+- For production mode or general cases uses run: `npm run build`;
+- You can use the app on itself site: soon.
 
 ## Roadmap
 * [ ] File import/export;
