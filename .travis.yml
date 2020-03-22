@@ -4,10 +4,7 @@ node_js:
 
 cache: npm
 
-script:
-  - npm i
-  - npm i --only=dev
-  - npm run build
+script: npm run build
 
 deploy:
  provider: pages
