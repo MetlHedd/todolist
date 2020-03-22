@@ -34,6 +34,8 @@ npm run install
 - For production mode or general cases uses run: `npm run build`;
 - You can use the app on itself site: soon.
 
+**WARNING!!** `vue.config.js` is set to be deployed on `/todolist/`, you can delete this file or you may edit.
+
 ## Roadmap
 * [ ] File import/export;
 * [ ] Search feature;
