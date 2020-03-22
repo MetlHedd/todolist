@@ -1,0 +1,33 @@
+{
+  "items": {
+    "746c8fc6-f5a2-4ff3-bf1c-82f49adeea9e": {
+      "title": "First TASK!",
+      "done": false,
+      "archived": false,
+      "timeToBeDone": false,
+      "content": "# You can use\n**MARKDOWN**",
+      "tags": ["Tag #1", "Tag #2"],
+      "projects": ["Project A", "Project B"]
+    }
+  },
+  "tags": {
+    "8c564119-87f6-5712-8c01-77d7787a5f1d": {
+      "name": "Tag #1",
+      "itemsWith": ["746c8fc6-f5a2-4ff3-bf1c-82f49adeea9e"]
+    },
+    "f5bfd15c-3b4a-5301-99c2-968d3bef6633": {
+      "name": "Tag #2",
+      "itemsWith": ["746c8fc6-f5a2-4ff3-bf1c-82f49adeea9e"]
+    }
+  },
+  "projects": {
+    "2aacf718-b77a-5353-8599-324df1de4c8f": {
+      "name": "Project A",
+      "itemsWith": ["746c8fc6-f5a2-4ff3-bf1c-82f49adeea9e"]
+    },
+    "40fb4af9-eea4-5761-a88a-6ab0ac9a9731": {
+      "name": "Project B",
+      "itemsWith": ["746c8fc6-f5a2-4ff3-bf1c-82f49adeea9e"]
+    }
+  }
+}

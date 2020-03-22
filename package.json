@@ -8,8 +8,19 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mdi/font": "^5.0.45",
+    "buefy": "^0.8.13",
     "core-js": "^3.6.4",
+    "markduckjs": "0.0.6",
+    "node-sass": "^4.13.1",
+    "pouch-vue": "^0.3.5",
+    "pouchdb-browser": "^7.2.1",
+    "pouchdb-find": "^7.2.1",
+    "pouchdb-live-find": "^0.4.0",
+    "sass-loader": "^8.0.2",
+    "uuid": "^7.0.2",
     "vue": "^2.6.11",
+    "vue-freemde": "^0.1.0",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
