@@ -14,9 +14,7 @@
           <div class="level-left">
             <div class="level-item block">
               <b-icon icon="file-multiple"></b-icon>
-              <a :href="'/tasks/see/' + item._id">
-                {{item.title}}
-              </a>
+              <router-link :to="'/tasks/see/' + item._id">{{item.title}}</router-link>
             </div>
           </div>
           <div class="levem-item">

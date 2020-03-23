@@ -38,10 +38,17 @@ npm run install
 
 ## Roadmap
 * [ ] File import/export;
+* [ ] Create general settings (e. g.: items per page, etc...);
+* [ ] Server-side feature;
+* [ ] Upload attchatments;
 * [ ] Search feature;
 * [ ] Calendar system;
+* [ ] Notifications (aka. reminders);
 * [ ] Theming system;
-* [ ] Create general settings (e. g.: items per page, etc...);
+* [ ] Activity log;
+* [ ] Desktop app;
+* [ ] Android app;
+* [ ] iOS app;
 * [ ] Extensios api.
 
 ## Docs
