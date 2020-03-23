@@ -59,6 +59,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  base: process.env.NODE_ENV === 'production' ? '/todolist/' : '/',
   mode: 'history',
   routes
 })
