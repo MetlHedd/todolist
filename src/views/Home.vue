@@ -6,7 +6,7 @@
       </div>
       <div class="column box">
         <b-notification type="is-warning" has-icon aria-close-label="Close notification" role="alert">
-            This in an alpha version of <strong>m::TodoList</strong> if found any bug or want to request a new feature go to soon.
+            This in an alpha version of <strong>m::TodoList</strong> if found any bug or want to request a new feature go to <a href="https://github.com/MetlHedd/todolist">https://github.com/MetlHedd/todolist</a>.
         </b-notification>
         <TodoListItemsList />
       </div>
