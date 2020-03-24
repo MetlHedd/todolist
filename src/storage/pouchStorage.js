@@ -85,6 +85,13 @@ export default {
             await Vue.prototype.$pouchStorage.addTP($pouchSession, 'projects', uuidv5(formsData.projects, UUIDNamepace), formsData._id)
           }
         }
+
+        for (const key in formsData) {
+          if (formsData[key] !== doc[key]) {
+            doc[key] = formsData[key]
+          }
+        }
+
         return $pouchSession.put(doc, {}, 'tasks').catch((error) => {
           console.error('Error on `addTask(1)`, details:', error.status, '-', error.message)
           return false
