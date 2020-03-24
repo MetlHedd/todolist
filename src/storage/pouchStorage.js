@@ -53,7 +53,10 @@ export default {
      * Tasks DB methods
      */
     Vue.prototype.$pouchStorage.addTask = function ($pouchSession, formsData) {
-      const newUUID = uuidv4()
+      let newUUID = uuidv4()
+      
+      if(formsData._id)
+        mewUUID = formsData._id
 
       $pouchSession.get(newUUID, {}, 'tasks').then(async (doc) => {
         for (const i in doc.tags) {
