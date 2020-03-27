@@ -1,6 +1,14 @@
 {
-  "name": "app",
-  "version": "0.1.0",
+  "name": "m-todolist",
+  "version": "0.2.0",
+  "author": {
+    "name": "Breno Alves",
+    "url": "https://github.com/MetlHedd"
+  },
+  "repository": {
+    "url": "https://github.com/MetlHedd/todolist"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

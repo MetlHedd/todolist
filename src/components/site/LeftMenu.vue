@@ -11,10 +11,6 @@
       <b-menu-item icon="calendar-week" label="Week Tasks" tag="router-link" to="/calendar/week/"></b-menu-item>
       <b-menu-item icon="calendar-month" label="Month Taks" tag="router-link" to="/calendar/month/"></b-menu-item>
     </b-menu-list>
-    <b-menu-list label="File Control">
-      <b-menu-item icon="file-download" label="Export" tag="router-link" to="/file/export/"></b-menu-item>
-      <b-menu-item icon="file-upload" label="Import" tag="router-link" to="/file/import/"></b-menu-item>
-    </b-menu-list>
     <b-menu-list label="Settings">
       <b-menu-item icon="cogs" label="General Settings" tag="router-link" to="/settings/"></b-menu-item>
       <b-menu-item icon="palette" label="Theme" tag="router-link" to="/theme/"></b-menu-item>

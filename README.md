@@ -30,14 +30,14 @@ npm run install
 ```
 
 ## Running the app
-- For development run: `npm run serve`;
-- For production mode or general cases uses run: `npm run build`;
+- For development mode run: `npm run serve`;
+- For production mode or general cases, run: `npm run build`;
 - You can use the app on itself site: https://metlhedd.github.io/todolist/
 
 **WARNING!!** `vue.config.js` is set to be deployed on `/todolist/`, you can delete this file or you may edit it.
 
 ## Roadmap
-* [ ] File import/export;
+* [X] File import/export;
 * [ ] Create general settings (e. g.: items per page, etc...);
 * [ ] Server-side feature;
 * [ ] Upload attchatments;
